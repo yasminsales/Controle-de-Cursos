@@ -13,14 +13,16 @@ public class Person
         this.Address = address;
         this.Phone = phone; 
     }
-    public String toString()
+
+    public Person()
+    {
+    }
+
+    public string toString()
     {
         return "Person [name=" + Name + ", Address=" + Address + ", phone=" + Phone + "]";
     }
 
-    public virtual void Test()
-    {
-
-    }
+   
 }
 

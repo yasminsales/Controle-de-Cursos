@@ -49,12 +49,25 @@ namespace Controle_de_Custos
             Console.WriteLine("Student graduated the course");
         }
 
-        public void Enroll()
+        public void EnrollCourse()
         {
             if (string.IsNullOrWhiteSpace(Registration))
             {
                 Console.WriteLine("Student needs to register before enrolling a course.");
                 return;
+            }
+        }
+        public void ChangeCourse()
+        {
+            if (Situation == "studying")
+            {
+                Console.WriteLine("Would you like to change your course?Type Yes or no.");
+                var changeOption = Console.ReadLine(); 
+                if (changeOption == "Yes")
+                {
+                    Console.WriteLine("Enter the course code:");
+                    CourseCode = Console.ReadLine();
+                }
             }
         }
     }
