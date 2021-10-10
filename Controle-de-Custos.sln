@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controle-de-Custos", "Controle-de-Custos\Controle-de-Custos.csproj", "{22D86001-D4F6-4A07-BD18-F9FC66288C80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D86001-D4F6-4A07-BD18-F9FC66288C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D86001-D4F6-4A07-BD18-F9FC66288C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D86001-D4F6-4A07-BD18-F9FC66288C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D86001-D4F6-4A07-BD18-F9FC66288C80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83172F0-35BC-43E2-B56C-9442869FF00C}
+	EndGlobalSection
+EndGlobal
