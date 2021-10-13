@@ -66,7 +66,7 @@ namespace Controle_de_Custos
                 if (changeOption == "Yes")
                 {
                     Console.WriteLine("Enter the course code:");
-                    CourseCode = Console.ReadLine();
+                    var CourseCode = Console.ReadLine();
                 }
             }
         }
